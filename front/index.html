@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>front</title>
+</head>
+
+<body>
+  <h1>BIBLIOTHEQUE</h1>
+  <div id="app"></div>
+  <div>
+    <!--ZONE POUR AJOUTER UN LIVRE-->
+  </div>
+  <div id="Books">
+  </div>
+  <div id="add">
+    <h2>AJOUTER UN LIVRE</h2>
+    <input type="text" id="Rentrer_titre" placeholder="title" />
+    <input type="text" id="Rentrer_author" placeholder="author" />
+    <input type="number" id="Rentrer_year" placeholder="year" />
+    <input type="text" id="Rentrer_synopsis" placeholder="synopsis" />
+    <select id="select_genre"></select> <!--TS s'occupe de gérer le dynamique-->
+    <button id="addBook">+</button>
+  </div>
+
+  <!--ZONE 2 RECHERCHER UN LIBVRE-->
+  <div id="seek">
+    <h2>CHERCHER UN LIVRE</h2>
+    <input type="text" id="Enter_book" placeholder="Title book or Author to research" />
+    <button id="search">go</button>
+  </div>
+  <h2>GENRES</h2>
+  <div id="Gender">
+    <input type="text" id="Enter_gender" placeholder="Rentrer un genre" />
+    <button id="add_Gender">+</button>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+
+  <!--ZONE 3 GENRES-->
+
+
+
+  <!--ZONE 4 AJOUTER GENRES AUX LIVRES-->
+</body>
+
+</html>
